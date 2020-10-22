@@ -878,7 +878,7 @@ textmode.validate = function () {
       }
       parseErrors = [{
         type: 'error',
-        message: err.message.replace(/\n/g, '<br>'),
+        message: err.message,
         line: line
       }]
     }
